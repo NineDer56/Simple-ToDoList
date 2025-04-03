@@ -50,7 +50,4 @@ dependencies {
 
     implementation(libs.androidx.room.runtime)
     ksp(libs.androidx.room.compiler)
-
-    implementation("androidx.room:room-ktx:1")
-
 }

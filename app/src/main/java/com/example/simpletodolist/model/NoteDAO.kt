@@ -1,11 +1,11 @@
-package com.example.simpletodolist.model;
+package com.example.simpletodolist.model
 
 import androidx.lifecycle.LiveData
-import androidx.room.Dao;
+import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
-import androidx.room.Query;
+import androidx.room.Query
 
 
 @Dao

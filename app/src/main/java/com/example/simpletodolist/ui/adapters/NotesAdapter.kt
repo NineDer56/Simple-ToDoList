@@ -20,10 +20,6 @@ class NotesAdapter : RecyclerView.Adapter<NotesAdapter.NotesViewHolder>() {
         notifyDataSetChanged()
     }
 
-    fun setOnNoteClickListener(onNoteClickListener: OnNoteClickListener){
-        this.onNoteClickListener = onNoteClickListener
-    }
-
     fun getNotes() : List<Note>{
         return ArrayList(notes)
     }
